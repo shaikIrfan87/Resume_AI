@@ -6,7 +6,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from typing import Dict, List
 from dotenv import load_dotenv
-import streamlit as st
 
 load_dotenv()
 

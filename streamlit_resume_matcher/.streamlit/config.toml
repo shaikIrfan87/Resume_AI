@@ -1,0 +1,35 @@
+[global]
+# Changes the default data directory location for Streamlit apps
+dataDir = "./data"
+
+[server]
+# Set to false to disable headless mode
+headless = false
+
+# Port for the Streamlit server
+port = 8501
+
+# Disable CORS for development
+enableCORS = false
+
+# Enable WebSocket compression
+enableXsrfProtection = false
+
+[browser]
+# Gather usage stats
+gatherUsageStats = false
+
+# Automatically open browser when starting the app
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+# Choose the app's color theme
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[logger]
+level = "info"

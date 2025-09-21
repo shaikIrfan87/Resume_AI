@@ -1,8 +1,0 @@
-# Pure Streamlit Resume Matching System Dependencies
-streamlit>=1.28.0
-python-docx
-python-dotenv==1.0.1
-google-generativeai==0.7.1
-pdfplumber==0.11.1
-PyMuPDF
-pandas>=1.5.0
